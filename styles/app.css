@@ -17,6 +17,7 @@
 /* HEADER STYLES */
 header {
   height: 100px;
+  padding: 80px;
   background-color: aqua;
   background-image: url(../images/pattern.png);
   background-size: contain;
@@ -26,8 +27,8 @@ header {
 header .logo__wrapper {
   color: #fff;
   text-shadow: 2px 2px 3px #000000;
-  margin-left: 15px;
-  padding-top: 20px;
+  margin-left: 5px;
+  margin-top: -20px;
 }
 
 header .logo__wrapper .logo__text__top {
