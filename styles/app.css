@@ -11,6 +11,7 @@ header {
   background-color: aqua;
   background-image: url(../images/pattern.png);
   background-size: contain;
+  margin-bottom: 20px;
 }
 
 header .logo__wrapper {
@@ -30,3 +31,53 @@ header .logo__wrapper .logo__text__bottom {
   font-size: 44px;
 }
 /* END HEADER STYLES */
+
+/* MAIN STYLES */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .title__wrapper,
+main .image__container,
+main .description__container .text__description,
+main .description__container ul {
+  margin-bottom: 20px;
+}
+
+main .title__wrapper .description__main,
+main .title__wrapper .description__timestamp {
+  color: #838383;
+}
+
+main .title__wrapper .description__timestamp {
+  font-size: 14px;
+}
+
+main .title__wrapper .description__main > .blue__description {
+  color: #0572cc;
+}
+
+main .image__container .description__photo1,
+main .image__container .description__photo2 {
+  font-size: 14px;
+}
+
+main .table__container thead th {
+  background-color: #088af5;
+  text-align: left;
+  width: 400px;
+  color: #fff;
+}
+
+main .table__container thead .col__size {
+  width: 1000px;
+}
+
+main .table__container tbody tr {
+  background-color: #ebebeb;
+}
+
+main .table__container tbody tr .white__row__table {
+  background-color: #fff;
+}
