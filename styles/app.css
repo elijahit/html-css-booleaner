@@ -5,6 +5,15 @@
   margin: 0;
   padding: 0;
 }
+
+/* BONUS PER ATTACCARE GLI ELEMENTI MAIN E FOOTER AL PUNTO GIUSTO */
+.flex__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 /* HEADER STYLES */
 header {
   height: 100px;
@@ -41,7 +50,8 @@ main {
 main .title__wrapper,
 main .image__container,
 main .description__container .text__description,
-main .description__container ul {
+main .description__container ul,
+main .table__container {
   margin-bottom: 20px;
 }
 
