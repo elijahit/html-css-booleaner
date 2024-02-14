@@ -81,3 +81,14 @@ main .table__container tbody tr {
 main .table__container tbody tr .white__row__table {
   background-color: #fff;
 }
+/* END MAIN STYLES */
+
+/* FOOTER STYLES */
+footer {
+  background-color: #19135f;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+/* END FOOTER STYLES */
