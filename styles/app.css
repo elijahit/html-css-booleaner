@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* HEADER STYLES */
+header {
+  height: 100px;
+  background-color: aqua;
+  background-image: url(../images/pattern.png);
+  background-size: contain;
+}
+
+header .logo__wrapper {
+  color: #fff;
+  text-shadow: 2px 2px 3px #000000;
+  margin-left: 15px;
+  padding-top: 20px;
+}
+
+header .logo__wrapper .logo__text__top {
+  margin-left: 20px;
+  margin-bottom: -17px;
+  font-size: 24px;
+}
+
+header .logo__wrapper .logo__text__bottom {
+  font-size: 44px;
+}
+/* END HEADER STYLES */
